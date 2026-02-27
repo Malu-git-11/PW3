@@ -9,7 +9,7 @@ services:
     image: phpmyadmin
     restart: always
     ports:
-      - http://20.110.65.35/:80
+      - 80:80
     environment:
       - PMA_ARBITRARY=1
   web:
@@ -22,6 +22,7 @@ services:
 #docker ps
 
 #docker compose up -d
+
 
 
 
