@@ -10,18 +10,13 @@
 </head>
 
 <body>
-  <h2>Login/Cadastro</h2>
-
-  <input id="email" type="email" placeholder="Email"><br><br>
-  <input id="senha" type="password" placeholder="Senha"><br><br>
-
-  <button id="btnLogin">Entrar</button>
-  <button id="btnCadastro">Cadastrar</button>
-
-  <p id="msg"></p>
-
-<script src="app.js"></script>
+  <h1>Hello Word</h1>
   
+  <?php 
+  $nome ="Malu";
+
+  echo "Olá $nome, boa aula!";
+  ?>
 </body>
 
 </html>
